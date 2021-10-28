@@ -33,7 +33,7 @@ pipeline{
          }
 	     steps{
 		    
-		    sh 'docker push nanditasahu/testapp'
+		    sh 'docker push lishadang/testapp'
 		 }
    }
    }
