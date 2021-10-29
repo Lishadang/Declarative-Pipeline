@@ -1,5 +1,5 @@
 pipeline{
-   agent Windows_Node
+	agent { Windows_Node }
    
    stages{
       stage('Checkout Stage'){
