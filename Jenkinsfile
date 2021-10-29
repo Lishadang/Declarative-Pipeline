@@ -10,7 +10,7 @@ pipeline{
    
     stage('Docker build Stage'){
 	     steps{
-		    sh 'docker run -it -rm -d -p 8080:80 --name web nginx'
+		    sh 'docker build -t testapp .'
 			echo 'Docker build stage successfully excuted'
 		 }
     }
